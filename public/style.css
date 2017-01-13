@@ -1,0 +1,25 @@
+body{
+	background-color:#A2D684;
+}
+.btn-lg{
+	margin: 20px;
+	color: black;
+}
+.btn-lg:hover { 
+    color: gray;
+}
+.jumbotron{
+	text-align: center;
+	background-color: #E2F0D6;
+	box-shadow:7px 7px 7px 7px #474746;
+	margin-bottom: 40px;
+}
+.panel{
+	text-align: center;
+	background-color: #E2F0D6;
+	box-shadow: 7px 7px 7px 7px #474746;
+}
+#questions{
+	text-align: left;
+}
+ 

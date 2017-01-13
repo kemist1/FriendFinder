@@ -1,0 +1,165 @@
+var friends = [
+  {
+      "name":"Jerry",
+      "photo":"http://blog.kevineikenberry.com/wp-content/uploads/2013/10/seinfeld_jerry.jpg",
+      "scores":[
+         5,
+         1,
+         4,
+         4,
+         5,
+         1,
+         2,
+         5,
+         4,
+         1
+          ]
+      },
+  {
+  "name":"George",
+  "photo":"http://www.uncoached.com/wp-content/uploads/2014/11/george-costanza-jacket-1.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Elaine",
+  "photo":"https://s-media-cache-ak0.pinimg.com/originals/f0/7a/38/f07a38c1bd516e141424ac46f7220f51.jpg",
+  "scores":[
+     9,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Kramer",
+  "photo":"http://www.ceylonguidance.com/images/kramersapartment.com/wp-content/uploads/kramer-teeth-the-abstinence-seinfeld.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Newman",
+  "photo":"http://media.philly.com/images/seinfeld-newman-wayne-knight.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Putty",
+  "photo":"http://www.gunaxin.com/wp-content/uploads/2011/03/Puddy.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Frank Costanza",
+  "photo":"https://i.ytimg.com/vi/LW_s6EqOxqY/maxresdefault.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"J Peterman",
+  "photo":"http://vignette4.wikia.nocookie.net/superepicfailpedia/images/0/05/Tumblr_mz54s2Ct0z1s764n9o1_500.png/revision/latest?cb=20151225011505",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Mr.Pit",
+  "photo":"https://d166p16y7lrz7l.cloudfront.net/media/a114d68ce5d24302c76f49e6bf85b077_large.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Susan",
+  "photo":"http://i.dailymail.co.uk/i/pix/2015/06/04/00/29562EDD00000578-3110225-image-a-2_1433375291382.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+}
+]
+
+// Note how we export the array. This makes it accessible to other files using require.
+module.exports = friends;
